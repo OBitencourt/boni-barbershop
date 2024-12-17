@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
     width: 100%;
     background-color: transparent;
-    padding: 12px 100px;
+    padding: 8px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 1px solid #C38C47;
 `
 
 export const StyledNavbar = styled.nav`
