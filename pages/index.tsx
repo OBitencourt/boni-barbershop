@@ -1,8 +1,10 @@
+import Header from "@/src/components/Header"
+
 const Index = () => {
     
     return (
         <>
-            Olá
+            <Header />
         </>
     )
 }

@@ -24,7 +24,7 @@ export default function MyApp(props: AppProps) {
     return (
         <React.Fragment>
             <Head>
-                <title>{"Ana's Touch"}</title>
+                <title>{"Sr. e Sra. Boni"}</title>
                 <link rel="icon" href="/images" />
                 <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
                 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
