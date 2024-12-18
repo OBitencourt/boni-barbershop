@@ -57,7 +57,7 @@ const Hero = () => {
                     </div>
                 </MainInfo>
                 
-                <div style={{backgroundColor: '#C38C47', padding: '4px', minHeight: '610px'}}>
+                <div style={{backgroundColor: '#C38C47', padding: '1px', minHeight: '610px', zIndex: '-1'}}>
 
                     <Image 
                         src='/images/imagem1-inicio.jpg'
