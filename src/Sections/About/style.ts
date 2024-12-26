@@ -1,16 +1,5 @@
 import styled from "styled-components";
 
-export const StyledSection = styled.section`
-    height: 100vh;
-    width: 100%;
-    background-color: #301E09;
-    z-index: 3;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-`
 
 export const MainInfo = styled.div`
     width: 50%;

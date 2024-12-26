@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { MainInfo, StyledSection } from "./style"
+import { MainInfo } from "./style"
 import { Container, Typography } from "@mui/material"
 
 
@@ -8,7 +8,7 @@ const About = () => {
     return (
 
         <>
-            <StyledSection>
+            <section style={{height: '100vh', backgroundColor: '#301E09', zIndex: '3', padding: '50px', display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative'}}>
                 <Container maxWidth='xs' sx={{display: 'flex', mb: 4}}>
                     <Image 
                         src='/images/scissor-white.png'
@@ -80,10 +80,10 @@ const About = () => {
                         alt="logo"
                         width={140}
                         height={160}
-                        style={{position: 'absolute', bottom: 0, left: '30px'}}
+                        style={{position: 'absolute', bottom: 20, left: '30px'}}
                     />
                 </Container>
-            </StyledSection>
+            </section>
         </>
     )
 }

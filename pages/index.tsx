@@ -1,6 +1,7 @@
 import Header from "@/src/components/Header"
 import About from "@/src/Sections/About"
 import Hero from '@/src/Sections/Hero'
+import Services from "@/src/Sections/Services"
 
 const Index = () => {
     
@@ -9,6 +10,7 @@ const Index = () => {
             <Header />
             <Hero />
             <About />
+            <Services />
         </>
     )
 }
