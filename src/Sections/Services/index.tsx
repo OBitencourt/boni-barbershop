@@ -8,7 +8,7 @@ const Services = () => {
     return (
 
         <>
-            <section style={{height: '100vh', backgroundColor: 'transparent', zIndex: '3', padding: '50px', position: 'relative'}}>
+            <section style={{height: '100vh', backgroundColor: 'transparent', zIndex: '3', padding: '50px', position: 'relative', marginBottom: '50px'}}>
                 <div style={{display: 'flex', justifyContent: 'center'}}>
 
                     <Image 

@@ -23,4 +23,5 @@ export const ServicesDiv = styled.div`
     justify-content: space-evenly;
     margin-top: 30px;
     border-left: 1px solid #DBAA68;
+    
 `
