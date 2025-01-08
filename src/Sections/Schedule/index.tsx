@@ -7,7 +7,7 @@ const Schedule = () => {
     return (
 
         <>  
-            <section style={{padding: '30px 0px 30px 0px'}}>
+            <section style={{padding: '30px 0px 50px 0px'}}>
 
                 <Typography
                     sx={{fontFamily: 'Cinzel'}}

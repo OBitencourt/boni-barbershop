@@ -1,3 +1,4 @@
+import Footer from "@/src/components/Footer"
 import Header from "@/src/components/Header"
 import About from "@/src/Sections/About"
 import Gallery from "@/src/Sections/Gallery"
@@ -15,6 +16,7 @@ const Index = () => {
             <Services />
             <Gallery />
             <Schedule />
+            <Footer />
         </>
     )
 }
