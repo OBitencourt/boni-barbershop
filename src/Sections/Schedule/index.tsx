@@ -13,7 +13,7 @@ const Schedule = () => {
                     sx={{fontFamily: 'Cinzel'}}
                     textAlign='center'
                     color="white"
-                    fontSize='3em'
+                    fontSize='2.8em'
                     gutterBottom
                 >
                     Agende
@@ -34,10 +34,10 @@ const Schedule = () => {
                         align="center"
                         color="white"
                         gutterBottom
-                        
                     >
                         Quer transformar seu visual com um corte impecável ou dar aquele cuidado especial para a barba? Agendar seu horário nunca foi tão fácil! Basta um clique e você estará em contato direto conosco pelo WhatsApp.
                     </Typography>
+
                     <PrimaryButton>
                         Marque Agora!
                     </PrimaryButton>

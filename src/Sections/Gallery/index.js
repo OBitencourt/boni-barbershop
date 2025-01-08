@@ -17,22 +17,23 @@ const Gallery = () => {
                     <Image 
                         src='/images/hair-clipper-white.png'
                         alt="white-scissor"
-                        width={50}
-                        height={50}
+                        width={40}
+                        height={40}
                     />
                     <Typography
                         variant="h3"
                         sx={{fontFamily: 'Cinzel', margin: '0 14px'}}
                         color="white"
                         align="center"
+                        fontSize='2.4em'
                     >
                         Galeria
                     </Typography>
                     <Image 
                         src='/images/hair-clipper-white.png'
                         alt="white-scissor"
-                        width={50}
-                        height={50}
+                        width={40}
+                        height={40}
                     />
                 </div>
                 <Typography

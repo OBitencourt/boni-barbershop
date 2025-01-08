@@ -13,7 +13,7 @@ export const MainInfo = styled.div`
         color: white;
         font-weight: 500;
         letter-spacing: 2px;
-        font-size: 2.4em;
+        font-size: 2.2em;
         margin-bottom: 40px;
     }
 

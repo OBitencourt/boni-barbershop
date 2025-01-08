@@ -8,26 +8,28 @@ const About = () => {
     return (
 
         <>
-            <section id="about" style={{height: '100vh', backgroundColor: '#301E09', zIndex: '3', padding: '50px', display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative'}}>
-                <Container maxWidth='xs' sx={{display: 'flex', mb: 4}}>
+            <section id="about" style={{backgroundColor: '#301E09', zIndex: '3', padding: '50px', display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative'}}>
+                <Container maxWidth='xs' sx={{display: 'flex', mb: 4, justifyContent: 'center'}}>
                     <Image 
                         src='/images/scissor-white.png'
                         alt="white-scissor"
-                        width={50}
-                        height={50}
+                        width={40}
+                        height={40}
                     />
                     <Typography
                         variant="h3"
                         sx={{fontFamily: 'Cinzel', margin: '0 14px'}}
                         color="white"
+                        fontSize='2.4em'
+                        
                     >
                         Sobre Nós
                     </Typography>
                     <Image 
                         src='/images/scissor-white.png'
                         alt="white-scissor"
-                        width={50}
-                        height={50}
+                        width={40}
+                        height={40}
                     />
                 </Container>
                 <Container maxWidth='lg' sx={{display: 'flex'}}>
