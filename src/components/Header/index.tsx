@@ -3,6 +3,13 @@ import { SpecialButton, StyledButton, StyledHeader, StyledNavbar } from "./style
 
 const Header = () => {
 
+    const scrollToSection = (id: string) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <>
             <StyledHeader>
@@ -14,19 +21,19 @@ const Header = () => {
                 />
 
                 <StyledNavbar>
-                    <StyledButton>
+                    <StyledButton onClick={() => scrollToSection('hero')}>
                         Início
                     </StyledButton>
-                    <StyledButton>
+                    <StyledButton onClick={() => scrollToSection('about')}>
                         Sobre Nós
                     </StyledButton>
-                    <StyledButton>
+                    <StyledButton onClick={() => scrollToSection('services')}>
                         Serviços
                     </StyledButton>
-                    <StyledButton>
+                    <StyledButton onClick={() => scrollToSection('gallery')}>
                         Galeria
                     </StyledButton>
-                    <SpecialButton>
+                    <SpecialButton onClick={() => scrollToSection('schedule')}>
                         Agende
                     </SpecialButton>
                 </StyledNavbar>

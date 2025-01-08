@@ -5,9 +5,16 @@ import Image from "next/image"
 
 const Hero = () => {
 
+    const scrollToSection = (id: string) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <>
-            <section>
+            <section id="hero">
 
                 <Container maxWidth='lg' sx={{height: '100vh', width: '90%', display: 'flex', justifyContent: 'space-between'}}>
 
@@ -50,10 +57,10 @@ const Hero = () => {
                         </div>
 
                         <div style={{display: 'flex'}}>
-                            <PrimaryButton>
+                            <PrimaryButton onClick={() => scrollToSection('schedule')}>
                                 Agendar Horário
                             </PrimaryButton>
-                            <SecondaryButton>
+                            <SecondaryButton onClick={() => scrollToSection('services')}>
                                 Conheça Nossos Serviços!
                             </SecondaryButton>
                         </div>

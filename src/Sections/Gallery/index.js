@@ -11,7 +11,7 @@ const Gallery = () => {
 
     return ( 
         <>
-            <section style={{ backgroundColor: '#301E09', zIndex: '3', padding: '50px', position: 'relative'}}>
+            <section id="gallery" style={{ backgroundColor: '#301E09', zIndex: '3', padding: '50px', position: 'relative'}}>
                 <div style={{display: 'flex', justifyContent: 'center'}}>
 
                     <Image 

@@ -8,7 +8,7 @@ const About = () => {
     return (
 
         <>
-            <section style={{height: '100vh', backgroundColor: '#301E09', zIndex: '3', padding: '50px', display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative'}}>
+            <section id="about" style={{height: '100vh', backgroundColor: '#301E09', zIndex: '3', padding: '50px', display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative'}}>
                 <Container maxWidth='xs' sx={{display: 'flex', mb: 4}}>
                     <Image 
                         src='/images/scissor-white.png'
