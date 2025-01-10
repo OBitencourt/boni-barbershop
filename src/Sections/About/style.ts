@@ -20,4 +20,28 @@ export const MainInfo = styled.div`
         line-height: 24px;
         margin-top: 32px;
     }
+
+    @media (max-width: 750px) {
+        width: 100%;
+    }
+`
+
+export const ImageDiv = styled.div`
+    display: block;
+
+
+    @media (max-width: 750px) {
+        display: none;
+    }
+`
+
+export const LogoDiv = styled.div`
+    position: absolute;
+    bottom: -20px;
+    left: -50px;
+
+
+    @media (max-width: 750px) {
+        z-index: -1;        
+    }
 `

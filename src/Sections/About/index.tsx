@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { MainInfo } from "./style"
+import { ImageDiv, LogoDiv, MainInfo } from "./style"
 import { Container, Typography } from "@mui/material"
 
 
@@ -10,6 +10,7 @@ const About = () => {
         <>
             <section id="about" style={{backgroundColor: '#301E09', zIndex: '3', padding: '50px', display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative'}}>
                 <Container maxWidth='xs' sx={{display: 'flex', mb: 4, justifyContent: 'center'}}>
+                    
                     <Image 
                         src='/images/scissor-white.png'
                         alt="white-scissor"
@@ -20,8 +21,8 @@ const About = () => {
                         variant="h3"
                         sx={{fontFamily: 'Cinzel', margin: '0 14px'}}
                         color="white"
-                        fontSize='2.4em'
-                        
+                        fontSize='2em'
+                        align="center"
                     >
                         Sobre Nós
                     </Typography>
@@ -32,14 +33,17 @@ const About = () => {
                         height={40}
                     />
                 </Container>
-                <Container maxWidth='lg' sx={{display: 'flex'}}>
-                    <Image 
-                        src='/images/imagem7.jpg'
-                        alt="white-scissor"
-                        width={500}
-                        height={420}
-                        style={{borderRadius: '4px'}}
-                    />
+                <Container maxWidth='lg' sx={{display: 'flex', padding: 0}}>
+                    <ImageDiv>
+
+                        <Image 
+                            src='/images/imagem7.jpg'
+                            alt="white-scissor"
+                            width={500}
+                            height={420}
+                            style={{borderRadius: '4px'}}
+                        />
+                    </ImageDiv>
                     <MainInfo>
                         <h3>
                             Sr. e Sra. Boni
@@ -69,7 +73,7 @@ const About = () => {
                                     src='/images/white-chair-icon.svg'
                                     width={50}
                                     height={50}
-                                    alt="main-logo-white"                        
+                                    alt="white-chair"                        
                                 />
                             </div>
                         </div>
@@ -77,13 +81,16 @@ const About = () => {
                             Nós somos movidos por valores como excelência, respeito e inovação. Acreditamos que o cuidado com o visual vai além da estética — é uma forma de expressão e autoconfiança. E é por isso que nos dedicamos a transformar cada visita em uma experiência única, que reflete a essência e o estilo de cada cliente.
                         </p>
                     </MainInfo>
-                    <Image 
-                        src='/images/boni-logo-marrom-branco.png'
-                        alt="logo"
-                        width={140}
-                        height={160}
-                        style={{position: 'absolute', bottom: 20, left: '30px'}}
-                    />
+                    <LogoDiv>
+
+                        <Image 
+                            src='/images/boni-logo-marrom-branco.png'
+                            alt="logo"
+                            width={140}
+                            height={160}
+                            style={{position: 'absolute', bottom: 20, left: '30px'}}
+                        />
+                    </LogoDiv>
                 </Container>
             </section>
         </>
