@@ -1,5 +1,5 @@
 import { Container, Typography } from "@mui/material"
-import { MainInfo, PrimaryButton, SecondaryButton } from "./style"
+import { MainInfo, PhotosWrapper, PrimaryButton, SecondaryButton } from "./style"
 import Image from "next/image"
 
 
@@ -16,18 +16,27 @@ const Hero = () => {
         <>
             <section id="hero">
 
-                <Container maxWidth='lg' sx={{height: '100vh', width: '90%', display: 'flex', justifyContent: 'space-between'}}>
+                <Container
+                    maxWidth='lg'
+                    sx={{ 
+                        width: '90%', 
+                        display: 'flex', 
+                        justifyContent: 'space-between',
+                        
+                    }}
+                >
 
                     <MainInfo>
                         <Image 
                             src='/images/boni-logo-white-text.png'
                             width={410}
                             height={230}
-                            alt="main-logo-white"                        
+                            alt="main-logo-white"
+                            style={{width: '350px', height: 'auto', marginLeft: '-5px'}}                        
                         />
                         
                         <h1>
-                            Transformando <span>Estilo</span> em <span>Confiança</span> 
+                            Transformando <span>Estilo</span> em <span>Confiança</span>
                         </h1>
 
                         <div style={{
@@ -66,7 +75,7 @@ const Hero = () => {
                         </div>
                     </MainInfo>
                     
-                    <div style={{backgroundColor: '#C38C47', padding: '1px', minHeight: '610px', zIndex: '-1'}}>
+                    <PhotosWrapper >
 
                         <Image 
                             src='/images/imagem1-inicio.jpg'
@@ -74,7 +83,7 @@ const Hero = () => {
                             height={600}
                             alt="main-logo-white"                        
                         />
-                    </div>
+                    </PhotosWrapper>
                 </Container>
             </section>
         </>

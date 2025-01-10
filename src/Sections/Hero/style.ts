@@ -7,6 +7,7 @@ export const MainInfo = styled.div`
     flex-direction: column;
     font-family: 'Lora';
     padding-top: 12px;
+    justify-content: center;
     h1 {
         width: 100%;
         line-height: 35px;
@@ -19,6 +20,13 @@ export const MainInfo = styled.div`
 
     span {
         color: #DBAA68;
+    }
+
+    @media (max-width: 1035px) {
+        width: 100%;
+        font-size: 0.9em;
+        align-items: center;
+        text-align: center;
     }
 `
 export const PrimaryButton = styled.button`
@@ -59,5 +67,20 @@ export const SecondaryButton = styled.button`
     &:hover {
         background-color: #C38C47;
         color: #422B0F;
+    }
+`
+
+export const PhotosWrapper = styled.div`
+    background-color: #C38C47;
+    padding: 1px;
+    min-height: 610px;
+    z-index: -1;
+
+    @media (max-width: 1035px) {
+        width: 50%;
+    }
+
+    @media (max-width: 900px) {
+        display: none;
     }
 `
