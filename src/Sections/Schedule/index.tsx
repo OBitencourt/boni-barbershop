@@ -30,7 +30,13 @@ const Schedule = () => {
                         style={{marginLeft: '-10px'}}
                     />
                     <Typography
-                        sx={{fontFamily: 'Lora', marginTop: '24px'}}
+                        sx={{
+                            fontFamily: 'Lora', 
+                            marginTop: '24px',
+                            '@media (max-width: 420px)': {  
+                                padding: '30px'
+                            },
+                        }}
                         align="center"
                         color="white"
                         gutterBottom

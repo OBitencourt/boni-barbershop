@@ -54,22 +54,25 @@ const Gallery = () => {
                         pauseOnHover: false,
                         resetProgress: false,
                         autoScroll: {
-                        speed: 1, // Velocidade do scroll
+                        speed: 1,
                         },
                         breakpoints: {
                             1024: {
-                              perPage: 3, // Mostra 3 slides em telas menores que 1024px
-                              gap: '1rem',
-                              
+                              perPage: 3,
+                              gap: '1rem',          
                             },
                             768: {
-                              perPage: 2, // Mostra 2 slides em telas menores que 768px
+                              perPage: 2,
                               gap: '0.5rem',
+                              pauseOnHover: false,
+                              
                             },
                             480: {
                               perPage: 1, // Mostra 1 slide em telas menores que 480px
                               gap: '5rem',
                               speed: 2,
+                              pauseOnHover: false,
+                              resetProgress: false,
                             },
                         }
                     }}
@@ -118,21 +121,23 @@ const Gallery = () => {
                         pauseOnHover: false,
                         resetProgress: false,
                         autoScroll: {
-                        speed: -1, // Velocidade do scroll
+                        speed: -1,
                         },
                         breakpoints: {
                             1024: {
-                              perPage: 3, // Mostra 3 slides em telas menores que 1024px
+                              perPage: 3,
                               gap: '1rem',
                             },
                             768: {
-                              perPage: 2, // Mostra 2 slides em telas menores que 768px
+                              perPage: 2,
                               gap: '5rem',
                             },
                             480: {
                               perPage: 1, // Mostra 1 slide em telas menores que 480px
                               gap: '5rem',
                               speed: 2,
+                              pauseOnHover: false,
+                              resetProgress: false,
                             },
                         }
                     }}
