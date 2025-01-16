@@ -36,7 +36,7 @@ const Hero = () => {
                         />
                         
                         <h1>
-                            Transformando <span>Estilo</span> em <span>Confiança</span>
+                            Transformando <span>Estilo</span> em <span>Confiança</span>.
                         </h1>
 
                         <div style={{

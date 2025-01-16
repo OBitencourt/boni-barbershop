@@ -1,6 +1,6 @@
 import { Container, Typography } from "@mui/material"
 import Image from "next/image"
-import { MainInfo, ServicesDiv } from "./style"
+import { MainInfo, Service, ServicesDiv } from "./style"
 
 
 const Services = () => {
@@ -8,7 +8,7 @@ const Services = () => {
     return (
 
         <>
-            <section id="services" style={{height: '100vh', backgroundColor: 'transparent', zIndex: '3', padding: '50px', position: 'relative', marginBottom: '50px'}}>
+            <section id="services" style={{backgroundColor: 'transparent', zIndex: '3', padding: '50px', position: 'relative', marginBottom: '50px'}}>
                 <div style={{display: 'flex', justifyContent: 'center'}}>
 
                     <Image 
@@ -34,7 +34,19 @@ const Services = () => {
                     />
                 </div>
 
-                <Container maxWidth='lg' sx={{display: 'flex', alignItems: 'center', width: '90%'}}>
+                <Container
+                    maxWidth='lg'
+                    sx={{
+                        display: 'flex', 
+                        alignItems: 'center', 
+                        width: '100%',
+
+                        '@media (max-width: 900px)': { 
+                            flexDirection: 'column'
+                            
+                        },
+                    }}
+                >
                     <MainInfo>
                         <p>
                             Na <span>Sr e Sra Boni</span>, cada serviço é pensado para oferecer o melhor em cuidados masculinos. Combinamos técnicas tradicionais e modernas para atender às necessidades de quem busca estilo, conforto e excelência. De um corte impecável à barba alinhada, estamos aqui para transformar sua visita em uma experiência única.
@@ -42,7 +54,12 @@ const Services = () => {
                     </MainInfo>
 
                     <ServicesDiv>
-                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '50%', padding: '12px', borderRight: '1px solid #DBAA68', borderBottom: '1px solid #DBAA68'}}>
+                        <Service 
+                            style={{
+                                borderRight: '1px solid #DBAA68', 
+                                borderBottom: '1px solid #DBAA68'
+                            }}
+                        >
                             <Image 
                                 src='/images/shave-icon.svg'
                                 alt="hair"
@@ -66,8 +83,13 @@ const Services = () => {
                             >
                                 Transforme seu visual com um corte moderno e impecável, ajustado ao seu estilo e personalidade.
                             </Typography>
-                        </div>
-                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '50%', padding: '12px', borderLeft: '1px solid #DBAA68', borderBottom: '1px solid #DBAA68'}}>
+                        </Service>
+                        <Service 
+                            style={{
+                                borderLeft: '1px solid #DBAA68', 
+                                borderBottom: '1px solid #DBAA68'
+                            }}
+                        >
                             <Image 
                                 src='/images/beard-icon.svg'
                                 alt="hair"
@@ -90,8 +112,13 @@ const Services = () => {
                             >
                                 Dê à sua barba o cuidado que ela merece. Oferecemos alinhamento, hidratação e finalização com produtos premium.
                             </Typography>
-                        </div>
-                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '50%', padding: '6px', borderTop: '1px solid #DBAA68', borderRight: '1px solid #DBAA68'}}>
+                        </Service>
+                        <Service 
+                            style={{
+                                borderTop: '1px solid #DBAA68', 
+                                borderRight: '1px solid #DBAA68'
+                            }}
+                        >
                             <Image 
                                 src='/images/nose-icon.svg'
                                 alt="hair"
@@ -114,8 +141,13 @@ const Services = () => {
                             >
                                 Elimine o desconforto e mantenha uma aparência limpa e bem cuidada com nossa depilação de nariz rápida e eficaz.
                             </Typography>
-                        </div>
-                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '50%', padding: '12px', borderTop: '1px solid #DBAA68', borderLeft: '1px solid #DBAA68'}}>
+                        </Service>
+                        <Service 
+                            style={{
+                                borderTop: '1px solid #DBAA68', 
+                                borderLeft: '1px solid #DBAA68'
+                            }}
+                        >
                             <Image 
                                 src='/images/ear-icon.svg'
                                 alt="hair"
@@ -138,7 +170,7 @@ const Services = () => {
                             >
                                 Cuidado discreto e essencial para quem busca sofisticação em cada detalhe. Nossa depilação de ouvido proporciona um visual impecável com conforto e higiene.
                             </Typography>
-                        </div>
+                        </Service>
                     </ServicesDiv>
                 </Container>
             </section>
