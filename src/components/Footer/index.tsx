@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { StyledFooter } from './style'
+import { InfoWrapper, StyledFooter } from './style'
 import { Typography } from "@mui/material"
 
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
                     alt="logo-text"
                 />
 
-                <div style={{display: 'flex', width: '70%', justifyContent: 'space-between'}}>
+                <InfoWrapper>
                     <div>
                         <Typography
                             sx={{fontFamily: 'Cormorant'}}
@@ -85,7 +85,7 @@ const Footer = () => {
                             </Typography>
                         </div>
                     </div>
-                </div>
+                </InfoWrapper>
             </StyledFooter>
         </>
     )
