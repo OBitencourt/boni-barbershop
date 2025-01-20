@@ -45,3 +45,19 @@ export const LogoDiv = styled.div`
         z-index: -1;        
     }
 `
+
+export const StyledSection = styled.section`
+    background-color: #301E09;
+    z-index: 3;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+
+    @media (max-width: 420px) {
+        border-top-right-radius: 1.3em;
+        border-top-left-radius: 1.3em;
+    }
+`

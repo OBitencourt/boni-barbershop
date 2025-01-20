@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { ImageDiv, LogoDiv, MainInfo } from "./style"
+import { ImageDiv, LogoDiv, MainInfo, StyledSection } from "./style"
 import { Container, Typography } from "@mui/material"
 
 
@@ -8,7 +8,7 @@ const About = () => {
     return (
 
         <>
-            <section id="about" style={{backgroundColor: '#301E09', zIndex: '3', padding: '50px', display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative'}}>
+            <StyledSection id="about">
                 <Container maxWidth='xs' sx={{display: 'flex', mb: 4, justifyContent: 'center'}}>
                     
                     <Image 
@@ -92,7 +92,7 @@ const About = () => {
                         />
                     </LogoDiv>
                 </Container>
-            </section>
+            </StyledSection>
         </>
     )
 }

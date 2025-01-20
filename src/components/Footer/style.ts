@@ -13,7 +13,7 @@ export const StyledFooter = styled.footer`
     }
 `
 export const InfoWrapper = styled.div`
-    display: grid;
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 70%;
