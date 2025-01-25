@@ -36,6 +36,7 @@ const Schedule = () => {
                             '@media (max-width: 420px)': {  
                                 padding: '30px'
                             },
+                            fontSize: '1.1em'
                         }}
                         align="center"
                         color="white"

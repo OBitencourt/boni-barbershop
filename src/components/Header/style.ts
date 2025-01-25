@@ -29,7 +29,7 @@ export const StyledButton = styled.button`
     font-family: 'Lora';
     color: white;
     transition: all 150ms ease-in;
-    font-size: 14px;
+    font-size: 1.03em;
     font-weight: 500;
     cursor: pointer;
     padding: 4px 16px;
@@ -51,6 +51,7 @@ export const SpecialButton = styled.button`
     cursor: pointer;
     padding: 10px 16px;
     border-radius: 30px;
+    font-size: 1.03em;
     
     &:hover {
         filter: brightness(0.9);

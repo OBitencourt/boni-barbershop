@@ -13,6 +13,7 @@ export const PrimaryButton = styled.button`
     border-radius: 2px;
     cursor: pointer;
     transition: all 200ms ease-in;
+    font-size: 1.1em;
 
     &:hover {
         filter: brightness(1.07);

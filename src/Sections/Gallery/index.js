@@ -69,7 +69,7 @@ const Gallery = () => {
                             },
                             480: {
                               perPage: 1, // Mostra 1 slide em telas menores que 480px
-                              gap: '5rem',
+                              gap: '8rem',
                               speed: 2,
                               pauseOnHover: false,
                               resetProgress: false,
@@ -81,32 +81,48 @@ const Gallery = () => {
                     <SplideSlide>
                         <Image 
                             src='/images/imagem7.jpg'
-                            width={350}
-                            height={300}
+                            width={400}
+                            height={350}
                             alt="imagem7"
                         />
                     </SplideSlide>
                     <SplideSlide>
                         <Image 
                             src='/images/imagem17.jpg'
-                            width={350}
-                            height={300}
+                            width={400}
+                            height={350}
+                            alt="imagem7"
+                        />
+                    </SplideSlide>
+                    <SplideSlide>
+                        <Image 
+                            src='/images/imagem12.jpg'
+                            width={400}
+                            height={350}
                             alt="imagem7"
                         />
                     </SplideSlide>
                     <SplideSlide>
                         <Image 
                             src='/images/imagem14.jpg'
-                            width={350}
-                            height={300}
+                            width={400}
+                            height={350}
                             alt="imagem7"
                         />
                     </SplideSlide>
                     <SplideSlide>
                         <Image 
                             src='/images/imagem21.jpg'
-                            width={350}
-                            height={300}
+                            width={400}
+                            height={350}
+                            alt="imagem7"
+                        />
+                    </SplideSlide>
+                    <SplideSlide>
+                        <Image 
+                            src='/images/imagem26.jpg'
+                            width={400}
+                            height={350}
                             alt="imagem7"
                         />
                     </SplideSlide>
@@ -134,7 +150,7 @@ const Gallery = () => {
                             },
                             480: {
                               perPage: 1, // Mostra 1 slide em telas menores que 480px
-                              gap: '5rem',
+                              gap: '8rem',
                               speed: 2,
                               pauseOnHover: false,
                               resetProgress: false,
@@ -148,34 +164,54 @@ const Gallery = () => {
                         <Image 
                             src='/images/imagem18.jpg'
                             alt="imagem18"
-                            width={350}
-                            height={300}
+                            width={400}
+                            height={350}
                         />
                     </SplideSlide>
                     <SplideSlide>
                         <Image 
                             src='/images/imagem16.jpg'
                             alt="imagem18"
-                            width={350}
-                            height={300}
+                            width={400}
+                            height={350}
                         />
+                    </SplideSlide>
+                    <SplideSlide>
+                        <Image 
+                            src='/images/imagem24.jpg'
+                            alt="imagem18"
+                            width={400}
+                            height={350}
+                        />
+                        
                     </SplideSlide>
                     <SplideSlide>
                         <Image 
                             src='/images/imagem10.jpg'
                             alt="imagem18"
-                            width={350}
-                            height={300}
+                            width={400}
+                            height={350}
                         />
                     </SplideSlide>
                     <SplideSlide>
                         <Image 
                             src='/images/imagem20.jpg'
                             alt="imagem18"
-                            width={350}
-                            height={300}
+                            width={400}
+                            height={350}
                         />
+                        
                     </SplideSlide>
+                    <SplideSlide>
+                        <Image 
+                            src='/images/imagem27.jpg'
+                            alt="imagem18"
+                            width={400}
+                            height={350}
+                        />
+                        
+                    </SplideSlide>
+
                 </Splide>
             </section>
         </>
