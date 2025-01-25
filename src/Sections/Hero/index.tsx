@@ -78,10 +78,11 @@ const Hero = () => {
                     <PhotosWrapper >
 
                         <Image 
-                            src='/images/imagem1-inicio.jpg'
-                            width={500}
+                            src='/images/imagem8.jpg'
+                            width={550}
                             height={600}
-                            alt="main-logo-white"                        
+                            alt="main-logo-white"       
+                            style={{height: 'auto'}}                 
                         />
                     </PhotosWrapper>
                 </Container>

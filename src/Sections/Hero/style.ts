@@ -73,7 +73,7 @@ export const SecondaryButton = styled.button`
 export const PhotosWrapper = styled.div`
     background-color: #C38C47;
     padding: 1px;
-    min-height: 610px;
+    min-height: 600px;
     z-index: -1;
 
     @media (max-width: 1035px) {
