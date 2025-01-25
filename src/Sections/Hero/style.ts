@@ -43,6 +43,7 @@ export const PrimaryButton = styled.button`
     cursor: pointer;
     margin-right: 27px;
     transition: all 200ms ease-in;
+    font-size: 1.02em;
 
     &:hover {
         filter: brightness(1.07);
@@ -58,11 +59,11 @@ export const SecondaryButton = styled.button`
     color: #C38C47;
     font-weight: 600;
     padding: 10px 15px;
-    width: 50%;
     margin-top: 40px;
     border-radius: 2px;
     cursor: pointer;
     transition: all 200ms ease-in;
+    font-size: 1.02em;
 
     &:hover {
         background-color: #C38C47;

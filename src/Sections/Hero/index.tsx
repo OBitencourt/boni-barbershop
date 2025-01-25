@@ -32,7 +32,7 @@ const Hero = () => {
                             width={410}
                             height={230}
                             alt="main-logo-white"
-                            style={{width: '350px', height: 'auto', marginLeft: '-5px'}}                        
+                            style={{width: '370px', height: 'auto', marginLeft: '-5px'}}                        
                         />
                         
                         <h1>

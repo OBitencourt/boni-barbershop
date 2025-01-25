@@ -21,7 +21,7 @@ const About = () => {
                         variant="h3"
                         sx={{fontFamily: 'Cinzel', margin: '0 14px'}}
                         color="white"
-                        fontSize='2em'
+                        fontSize='2.4em'
                         align="center"
                     >
                         Sobre Nós
@@ -33,15 +33,15 @@ const About = () => {
                         height={40}
                     />
                 </Container>
-                <Container maxWidth='lg' sx={{display: 'flex', padding: 0}}>
+                <Container maxWidth='lg' sx={{display: 'flex', alignItems: 'center'}}>
                     <ImageDiv>
 
                         <Image 
-                            src='/images/imagem7.jpg'
+                            src='/images/imagem14.jpg'
                             alt="white-scissor"
-                            width={500}
+                            width={550}
                             height={420}
-                            style={{borderRadius: '4px'}}
+                            style={{borderRadius: '4px', height: 'auto'}}
                         />
                     </ImageDiv>
                     <MainInfo>

@@ -10,13 +10,13 @@ export const MainInfo = styled.div`
         font-weight: 500;
         font-family: 'Lora';
         margin: 0;
-        font-size: 1.7em;
+        font-size: 2em;
     }
 
     p {
         color: #D9D9D9;
         font-family: 'Cormorant';
-        font-size: 1.1em;
+        font-size: 1.35em;
         line-height: 24px;
         margin-top: 32px;
     }
@@ -37,12 +37,16 @@ export const ImageDiv = styled.div`
 
 export const LogoDiv = styled.div`
     position: absolute;
-    bottom: -20px;
-    left: -50px;
+    bottom: 50px;
+    left: 100px;
 
 
     @media (max-width: 750px) {
         z-index: -1;        
+    }
+    @media (max-width: 414px) {
+        left: -20px;
+        bottom: 0;
     }
 `
 
@@ -55,9 +59,9 @@ export const StyledSection = styled.section`
     justify-content: center;
     position: relative;
 
-
-    @media (max-width: 420px) {
+    @media (max-width: 485px) {
         border-top-right-radius: 1.3em;
         border-top-left-radius: 1.3em;
+        padding: 30px;
     }
 `

@@ -70,13 +70,13 @@ const Services = () => {
                                 color="#DBAA68"
                                 sx={{fontFamily: 'Cormorant'}}
                                 fontWeight={700}
-                                fontSize={18}
+                                fontSize='1.4em'
                                 gutterBottom
                             >
                                 Corte de Cabelo
                             </Typography>
                             <Typography
-                                fontSize={16}
+                                fontSize='1.2em'
                                 color="#D9D9D9"
                                 sx={{fontFamily: 'Cormorant'}}
                                 
@@ -100,13 +100,13 @@ const Services = () => {
                                 color="#DBAA68"
                                 sx={{fontFamily: 'Cormorant'}}
                                 fontWeight={700}
-                                fontSize={18}
+                                fontSize='1.4em'
                                 gutterBottom
                             >
                                 Barba Completa
                             </Typography>
                             <Typography
-                                fontSize={16}
+                                fontSize='1.2em'
                                 color="#D9D9D9"
                                 sx={{fontFamily: 'Cormorant'}}
                             >
@@ -129,13 +129,13 @@ const Services = () => {
                                 color="#DBAA68"
                                 sx={{fontFamily: 'Cormorant'}}
                                 fontWeight={700}
-                                fontSize={18}
+                                fontSize='1.4em'
                                 gutterBottom
                             >
                                 Depilação de Nariz
                             </Typography>
                             <Typography
-                                fontSize={16}
+                                fontSize='1.2em'
                                 color="#D9D9D9"
                                 sx={{fontFamily: 'Cormorant'}}
                             >
@@ -158,13 +158,13 @@ const Services = () => {
                                 color="#DBAA68"
                                 sx={{fontFamily: 'Cormorant'}}
                                 fontWeight={700}
-                                fontSize={18}
+                                fontSize='1.4em'
                                 gutterBottom
                             >
                                 Depilação de Ouvido
                             </Typography>
                             <Typography
-                                fontSize={16}
+                                fontSize='1.2em'
                                 color="#D9D9D9"
                                 sx={{fontFamily: 'Cormorant'}}
                             >
